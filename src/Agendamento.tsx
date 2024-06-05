@@ -31,7 +31,7 @@ export default function Agendamento({ route, navigation }: any) {
 
     return (
         <VStack flex={1} alignItems="center" justifyContent="center" padding={5}>
-            <Input placeholder="Digite a data" onChangeText={setData} />
+            <Input placeholder="Digite a data 10/05/2024 12:23" onChangeText={setData} />
             <Botao onPress={agendar}>Agendar</Botao>
         </VStack>
     )
